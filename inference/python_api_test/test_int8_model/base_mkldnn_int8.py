@@ -1,257 +1,437 @@
 """
-mkldnn_int8 base values
+mkldnn_fp32 base values
 """
 
-mkldnn_int8 = {
+mkldnn_fp32 = {
     "PPYOLOE": {
         "model_name": "PPYOLOE",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.008505799229272469,
+            "value": 0.6589625124313709,
             "unit": "mAP",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 284.9,
+            "value": 273.6,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "PicoDet": {
         "model_name": "PicoDet",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.29576267147717544,
+            "value": 0.3961860050197093,
             "unit": "mAP",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 15.6,
+            "value": 17.4,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "YOLOv5s": {
         "model_name": "YOLOv5s",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.337513986405508,
+            "value": 0.47576069252304726,
             "unit": "mAP",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 41.9,
+            "value": 40.5,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "YOLOv6s": {
         "model_name": "YOLOv6s",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.38167538696759734,
+            "value": 0.6080937025782384,
             "unit": "mAP",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 36.3,
+            "value": 58.7,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "YOLOv7": {
         "model_name": "YOLOv7",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.4599616751537943,
+            "value": 0.5936938054755518,
             "unit": "mAP",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 101.8,
+            "value": 136.2,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "ResNet_vd": {
         "model_name": "ResNet_vd",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.78542,
+            "value": 0.7952047952047953,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 6.6,
+            "value": 13.2,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "MobileNetV3_large": {
         "model_name": "MobileNetV3_large",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.70114,
+            "value": 0.7402597402597403,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 4.8,
+            "value": 5.2,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "PPLCNetV2": {
         "model_name": "PPLCNetV2",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.75986,
+            "value": 0.7702297702297702,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 3.8,
+            "value": 5.1,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "PPHGNet_tiny": {
         "model_name": "PPHGNet_tiny",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.77626,
+            "value": 0.8061938061938061,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 8.0,
+            "value": 12.4,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "EfficientNetB0": {
         "model_name": "EfficientNetB0",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.75366,
+            "value": 0.7622377622377622,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 9.6,
+            "value": 9.8,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "PP-HumanSeg-Lite": {
         "model_name": "PP-HumanSeg-Lite",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.9596980417424789,
+            "value": 0.9612931400799566,
             "unit": "mIoU",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 42.2,
+            "value": 41.5,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "PP-Liteseg": {
         "model_name": "PP-Liteseg",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.6646508698054427,
+            "value": 0.7496982369835159,
             "unit": "mIoU",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 375.9,
+            "value": 419.6,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "HRNet": {
         "model_name": "HRNet",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.7899464457999261,
+            "value": 0.7851897739793804,
             "unit": "mIoU",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 532.6,
+            "value": 737.4,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "UNet": {
         "model_name": "UNet",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.6434970135618086,
+            "value": 0.6455224368697076,
             "unit": "mIoU",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 1105.8,
+            "value": 2234.3,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "Deeplabv3-ResNet50": {
         "model_name": "Deeplabv3-ResNet50",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.7900994083314681,
+            "value": 0.7893202428927575,
             "unit": "mIoU",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 861.7,
+            "value": 2806.4,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "ERNIE_3.0-Medium": {
         "model_name": "ERNIE_3.0-Medium",
+        "batch_size": 32,
         "jingdu": {
-            "value": 0.6809545875810936,
+            "value": 0.7534754402224282,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 102.71,
+            "value": 187.05,
             "unit": "ms",
-            "batch_size": 32,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "PP-MiniLM": {
         "model_name": "PP-MiniLM",
+        "batch_size": 32,
         "jingdu": {
-            "value": 0.6899907321594069,
+            "value": 0.7402687673772012,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 115.12,
+            "value": 180.81,
             "unit": "ms",
-            "batch_size": 32,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
     "BERT_Base": {
         "model_name": "BERT_Base",
+        "batch_size": 1,
         "jingdu": {
-            "value": 0.051546658541685234,
+            "value": 0.6006530974238766,
             "unit": "acc",
             "th": 0.05,
         },
         "xingneng": {
-            "value": 18.94,
+            "value": 52.91,
             "unit": "ms",
-            "batch_size": 1,
+            "th": 0.05,
+        },
+        "cpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
+            "th": 0.05,
+        },
+        "gpu_mem": {
+            "value": 273.6,
+            "unit": "MB",
             "th": 0.05,
         },
     },
